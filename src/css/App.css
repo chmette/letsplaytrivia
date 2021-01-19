@@ -1,0 +1,312 @@
+:root {
+  font-size: 62.5%;
+  --green: #69fc05;
+  --black: rgb(24, 23, 23);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  background-color: #efefef;
+}
+
+/* General settings */
+
+h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+h3,
+h4 {
+  color: #f2f2f2;
+  margin: 0.5rem 0;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+h4 {
+  font-size: 1.9rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  margin: 1.2rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input[type="text"],
+select {
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  outline: var(--green);
+  margin: 0.6rem 0;
+  border: none;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: var(--green);
+}
+
+input[type="radio"] {
+  margin: 0.6rem;
+  outline: var(--green);
+}
+
+label {
+  display: inline-block;
+  padding: 0.5rem 0;
+  margin: 0.6rem;
+}
+
+/* Home  */
+
+.home-container {
+  height: 100vh;
+  text-align: center;
+}
+
+.start-gif {
+  width: 100vw;
+  height: 80vh;
+  background-image: url(https://media.giphy.com/media/26BRqPg05olzXG1bi/source.gif);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.start-heading {
+  margin: 3rem auto;
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px black;
+  color: blueviolet;
+}
+
+.startGame {
+  background-color: var(--green);
+  border: none;
+  color: rgb(78, 24, 128);
+  border: 1px solid blueviolet;
+}
+
+.startGame:hover {
+  background-color: turquoise;
+  transform: scale(1.05);
+  color: blueviolet;
+  transition: 0.3s;
+}
+
+/* Home End */
+
+/* Set up Start  */
+
+.setup-container {
+  text-align: center;
+}
+
+.setup {
+  border: 1px solid blueviolet;
+  padding: 3rem;
+  margin: 7rem 4rem;
+  display: inline-block;
+  box-shadow: 4px 4px 4px 4px grey;
+  background-color: blueviolet;
+  text-shadow: 1px 1px 1px black;
+  color: #f3f3f3;
+}
+
+.setup-header {
+  font-size: 4.8rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.categorySelect {
+  display: block;
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.setup-input {
+  width: 70%;
+  line-height: 2rem;
+  padding: 0 3rem;
+}
+
+.radio-chosen {
+  color: var(--black);
+  font-size: 2.4rem;
+  text-shadow: none;
+}
+
+.radio-tochoose {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 2.4rem;
+}
+
+.radio-tochoose:hover {
+  transform: scale(1.1);
+}
+
+.multi-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.think-gif {
+  width: 20rem;
+  height: 18rem;
+  position: absolute;
+  top: 35rem;
+  left: 24rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(https://media.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif);
+  background-color: #3b3431;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* end setup */
+
+/* questions */
+
+.question-container {
+  text-align: center;
+}
+
+.question-heading {
+  height: 9rem;
+}
+
+.question {
+  height: 85vh;
+  width: 70vw;
+  border: 1px solid var(--black);
+  padding: 3rem;
+  margin: 5rem 2rem;
+  display: inline-block;
+  box-shadow: 4px 4px 4px 4px rgb(128, 128, 128);
+  background-color: var(--black);
+  color: #f3f3f3;
+  position: relative;
+}
+
+.answer-container {
+  margin: 2rem auto;
+  padding: 1rem 0;
+  box-shadow: 2px 2px 2px grey;
+  background-color: blueviolet;
+  text-shadow: 1px 1px 1px var(--black);
+  color: #f3f3f3;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.answer-success {
+  margin: 2rem auto;
+  padding: 1rem 0;
+  background-color: rgb(24, 207, 24);
+  text-shadow: 1px 1px 1px black;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+}
+
+.answer-container:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.radioAnswer {
+  opacity: 0;
+  display: none;
+}
+
+.submitBtn {
+  background-color: yellow;
+  padding: 1rem 2.5rem;
+  border: none;
+}
+
+.submitBtn:hover {
+  background-color: turquoise;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Evaluation */
+
+.evaluation-container {
+  padding: 3rem;
+  margin: 4rem auto;
+  width: 80%;
+  box-shadow: 4px 4px 4px 4px grey;
+  background-color: rgb(24, 23, 23);
+  text-shadow: 1px 1px 1px black;
+  color: #f3f3f3;
+}
+
+.evaluation-username {
+  text-align: center;
+  font-size: 4.8rem;
+  text-shadow: 1px 1px 3px green;
+}
+
+.evaluation-score-green {
+  height: 8rem;
+  width: 10rem;
+  text-align: center;
+  margin: 1rem auto 3rem auto;
+  font-size: 3.2rem;
+  border: 2px solid var(--green);
+  border-radius: 50%;
+  padding-top: 1.9rem;
+  text-shadow: 1px 1px 3px green;
+}
+
+.evaluation-score-red {
+  height: 8rem;
+  width: 10rem;
+  text-align: center;
+  margin: 1rem auto 3rem auto;
+  font-size: 3.2rem;
+  border: 2px solid red;
+  border-radius: 50%;
+  padding-top: 1.9rem;
+  text-shadow: 1px 1px 3px green;
+}
+
+.show-results {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 1rem 1.6rem;
+}
+
+.success {
+  background-color: rgb(13, 179, 13);
+}
+
+.fail {
+  background-color: red;
+}
+/* End Evaluation */ ;
