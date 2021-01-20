@@ -4,6 +4,7 @@ const UserName = ({ userName, changeHandler })=>{
     return (
         <div>
             <input
+            autoComplete='off'
             className="setup-input"
             type='text'
             name='name'

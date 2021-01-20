@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
 const Evaluation = ({ userName, res, userAnswers, points }) => {
@@ -72,7 +72,7 @@ return (
       />
     </div>
     {compareResults}
-    <Link to="/letsplaytrivia/">
+    <Link to="https://chmette.github.io/letsplaytrivia/">
       <button className="submitBtn">New Game</button>
     </Link>
   </section>

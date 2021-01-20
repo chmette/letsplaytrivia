@@ -81,7 +81,7 @@ label {
 
 .start-gif {
   width: 100vw;
-  height: 80vh;
+  height: 75vh;
   background-image: url(https://media.giphy.com/media/26BRqPg05olzXG1bi/source.gif);
   background-color: black;
   background-repeat: no-repeat;
@@ -167,21 +167,6 @@ label {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-}
-
-.think-gif {
-  width: 20rem;
-  height: 18rem;
-  position: absolute;
-  top: 35rem;
-  left: 24rem;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-image: url(https://media.giphy.com/media/l3vRioHcAYTTZbXQA/giphy.gif);
-  background-color: #3b3431;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 /* end setup */
