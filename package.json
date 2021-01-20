@@ -2,7 +2,9 @@
   "name": "lets-play-trivia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chmette.github.io/letsplaytrivia/",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -10,6 +12,8 @@
     "watchman": "^1.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

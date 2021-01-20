@@ -50,15 +50,33 @@ const Evaluation = ({ userName, res, userAnswers, points }) => {
 //---------------------------
 // {points.current > res.length / 2 ? successMemes.url : failMemes.url}
 return (
-    <section className="evaluation-container">
-        <h2 className="evaluation-username">{userName}'s Result </h2>
-    <h3 className={points.current > res.length / 2 ? "evaluation-score-green" : 'evaluation-score-red'}>{points.current} / {res.length}</h3>
-    <div className='eval-img'><img src={points.current > res.length / 2 ? "https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.gif" : 'https://media.giphy.com/media/xNRBrdEaYym76/giphy-downsized.gif'} alt=""/>
+  <section className="evaluation-container">
+    <h2 className="evaluation-username">{userName}'s Result </h2>
+    <h3
+      className={
+        points.current > res.length / 2
+          ? "evaluation-score-green"
+          : "evaluation-score-red"
+      }
+    >
+      {points.current} / {res.length}
+    </h3>
+    <div className="eval-img">
+      <img
+        src={
+          points.current > res.length / 2
+            ? "https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.gif"
+            : "https://media.giphy.com/media/xNRBrdEaYym76/giphy-downsized.gif"
+        }
+        alt=""
+      />
     </div>
     {compareResults}
-    <Link to="/"><button className='submitBtn'>New Game</button></Link>
-    </section>
-  )
+    <Link to="/letsplaytrivia/">
+      <button className="submitBtn">New Game</button>
+    </Link>
+  </section>
+);
 }
 
 export default Evaluation
