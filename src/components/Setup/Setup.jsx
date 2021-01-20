@@ -96,7 +96,7 @@ const clickhandler = () =>{
        
       )}
       {showGame && <Game data={data} userName={userName} />}
-      <div className='think-gif' style={{display: showGame ? 'none': 'block'}} ></div>
+      {/* <div className='think-gif' style={{display: showGame ? 'none': 'block'}} ></div> */}
     </section>
   );
 }

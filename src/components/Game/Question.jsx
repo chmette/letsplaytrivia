@@ -7,8 +7,7 @@ const Question = ({
   answers,
   solution,
   points,
-  userName,
-  setAmountOfQuestionsLeft,
+   setAmountOfQuestionsLeft,
   amountOfQuestionsLeft,
   setUserAnswers,
   userAnswers
