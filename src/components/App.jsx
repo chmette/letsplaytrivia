@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/letsplaytrivia/" component={Home} />
         <Route exact path="/Game" component={Setup} />
       </Switch>
     </Router>
