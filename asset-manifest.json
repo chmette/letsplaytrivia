@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/letsplaytrivia/static/css/main.a7f3030e.chunk.css",
+    "main.js": "/letsplaytrivia/static/js/main.cab06be0.chunk.js",
+    "main.js.map": "/letsplaytrivia/static/js/main.cab06be0.chunk.js.map",
+    "runtime-main.js": "/letsplaytrivia/static/js/runtime-main.e9efd19a.js",
+    "runtime-main.js.map": "/letsplaytrivia/static/js/runtime-main.e9efd19a.js.map",
+    "static/js/2.e37a9a63.chunk.js": "/letsplaytrivia/static/js/2.e37a9a63.chunk.js",
+    "static/js/2.e37a9a63.chunk.js.map": "/letsplaytrivia/static/js/2.e37a9a63.chunk.js.map",
+    "index.html": "/letsplaytrivia/index.html",
+    "static/css/main.a7f3030e.chunk.css.map": "/letsplaytrivia/static/css/main.a7f3030e.chunk.css.map",
+    "static/js/2.e37a9a63.chunk.js.LICENSE.txt": "/letsplaytrivia/static/js/2.e37a9a63.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9efd19a.js",
+    "static/js/2.e37a9a63.chunk.js",
+    "static/css/main.a7f3030e.chunk.css",
+    "static/js/main.cab06be0.chunk.js"
+  ]
+}
