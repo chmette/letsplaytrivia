@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/letsplaytrivia/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/Game" component={Setup} />
       </Switch>
     </Router>

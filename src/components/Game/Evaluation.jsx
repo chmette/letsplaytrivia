@@ -72,7 +72,7 @@ return (
       />
     </div>
     {compareResults}
-    <Link to="https://chmette.github.io/letsplaytrivia/">
+    <Link to="/">
       <button className="submitBtn">New Game</button>
     </Link>
   </section>
