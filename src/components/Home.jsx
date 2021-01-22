@@ -6,7 +6,7 @@ const Home = () => {
       <main className="home-container">    
         <div className='start-gif'></div>
             <h1 className="start-heading" >It's Trivia Time Bitches!</h1>
-        <Link to="/Game">
+        <Link to="Game">
           <button className='startGame'>Start Your Game </button>
         </Link>
       </main>
