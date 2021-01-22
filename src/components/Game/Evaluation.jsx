@@ -72,7 +72,7 @@ return (
       />
     </div>
     {compareResults}
-    <Link to="/">
+    <Link to="/Home">
       <button className="submitBtn">New Game</button>
     </Link>
   </section>
