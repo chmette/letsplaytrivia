@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/letsplaytrivia/static/css/main.55a11800.chunk.css",
-    "main.js": "/letsplaytrivia/static/js/main.f1e451a9.chunk.js",
-    "main.js.map": "/letsplaytrivia/static/js/main.f1e451a9.chunk.js.map",
+    "main.js": "/letsplaytrivia/static/js/main.4e21bf1e.chunk.js",
+    "main.js.map": "/letsplaytrivia/static/js/main.4e21bf1e.chunk.js.map",
     "runtime-main.js": "/letsplaytrivia/static/js/runtime-main.e9efd19a.js",
     "runtime-main.js.map": "/letsplaytrivia/static/js/runtime-main.e9efd19a.js.map",
     "static/js/2.0fdb9db5.chunk.js": "/letsplaytrivia/static/js/2.0fdb9db5.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e9efd19a.js",
     "static/js/2.0fdb9db5.chunk.js",
     "static/css/main.55a11800.chunk.css",
-    "static/js/main.f1e451a9.chunk.js"
+    "static/js/main.4e21bf1e.chunk.js"
   ]
 }
