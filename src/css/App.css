@@ -179,7 +179,8 @@ label {
 }
 
 .question-heading {
-  height: 9rem;
+  height: 12rem;
+  margin-bottom: 1.5rem;
 }
 
 .question {
@@ -211,7 +212,7 @@ label {
   margin: 2rem auto;
   padding: 1rem 0;
   background-color: rgb(24, 207, 24);
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px var(--black);
   color: #f3f3f3;
   transition: all 0.4s ease-in-out;
   border-radius: 10px;
@@ -283,7 +284,6 @@ label {
 
 .eval-img {
   margin: 0 auto;
-
   width: 350px;
   height: 250px;
 }
@@ -306,4 +306,94 @@ label {
 .fail {
   background-color: red;
 }
-/* End Evaluation */ ;
+/* End Evaluation */
+
+@media (max-width: 767px) {
+  .start-gif {
+    height: 60vh;
+  }
+  .start-heading {
+    margin: 1rem auto;
+  }
+
+  .setup {
+    margin: 3rem auto;
+    box-shadow: none;
+  }
+
+  .multi-container {
+    width: 100%;
+  }
+
+  .categorySelect {
+    display: block;
+    margin: 1rem auto;
+    width: 95%;
+  }
+
+  .startGame {
+    margin-top: 2rem;
+  }
+
+  .question {
+    height: 100vh;
+    width: 100vw;
+    padding: 1.5rem;
+    margin: 0rem auto;
+    box-shadow: none;
+  }
+
+  .question-heading {
+    margin-bottom: 4rem;
+    height: 11rem;
+  }
+  .question-heading h3 {
+    font-size: 2rem;
+  }
+
+  .answer-container {
+    margin: 1rem auto;
+    padding: 1rem 0;
+    height: 7rem;
+    box-shadow: none;
+  }
+
+  .answer-success {
+    margin: 1rem auto;
+    padding: 1rem 0;
+    height: 7rem;
+  }
+
+  .evaluation-container {
+    padding: 3rem 2rem;
+    margin: 0rem auto;
+    width: 100%;
+    box-shadow: none;
+    background-color: rgb(24, 23, 23);
+    text-shadow: 1px 1px 1px black;
+    color: #f3f3f3;
+  }
+  .evaluation-username {
+    font-size: 3.5rem;
+  }
+
+  .eval-img {
+    margin: 0 auto 2rem;
+    width: 250px;
+    height: 150px;
+  }
+
+  .show-results {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 1rem 1.2rem;
+  }
+  .show-results h3 {
+    font-size: 1.8rem;
+  }
+  .show-results h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
