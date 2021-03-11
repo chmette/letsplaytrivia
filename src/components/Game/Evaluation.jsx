@@ -65,7 +65,7 @@ return (
       <img
         src={
           points.current > res.length / 2
-            ? "https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.gif"
+            ? "https://media.giphy.com/media/3oEjI5VtIhHvK37WYo/giphy.gif"
             : "https://media.giphy.com/media/xNRBrdEaYym76/giphy-downsized.gif"
         }
         alt=""
