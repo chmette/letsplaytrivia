@@ -308,6 +308,10 @@ label {
 }
 /* End Evaluation */
 
+
+/* RESPONSIVE DESIGN PHONE  */
+
+
 @media (max-width: 767px) {
   .start-gif {
     height: 60vh;
@@ -317,7 +321,7 @@ label {
   }
 
   .setup {
-    margin: 3rem auto;
+    margin: 0rem auto;
     box-shadow: none;
   }
 
@@ -397,3 +401,4 @@ label {
     font-weight: 500;
   }
 }
+

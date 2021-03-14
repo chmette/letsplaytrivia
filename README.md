@@ -41,9 +41,9 @@ The tech stack:
 
 ### Features
 
-:nerd_face: individual set up of difficulty
-:nerd_face: different categories
-:nerd_face: evaluation in the end of the game
+:nerd_face: individual set up of difficulty  
+:nerd_face: different categories  
+:nerd_face: evaluation in the end of the game  
 
 ---
 
