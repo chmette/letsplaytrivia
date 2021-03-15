@@ -2,6 +2,7 @@
 
 Play it live [here](https://chmette.github.io/letsplaytrivia/)
 
+
 ## About
 
 Let play Trivia is a fun little project with use of an free [Trivia API](https://opentdb.com/api_config.php) for the React Module of DCI, made by [luke-dowling](https://github.com/luke-dowling) and [chmette](https://github.com/chmette).
@@ -25,6 +26,12 @@ Electronic devices or other resource materials are strictly prohibited for use d
 Correct answers will be shown at the end of the game.
 
 Go on, give it a go - Have Fun and Good Luck!
+
+
+
+#### Screenshots
+
+<img src="./screenshots/trivia_phone_setup.jpg" alt="screenshot" height="500px" /> <img src="./screenshots/trivia_phone_question.jpg" alt="screenshot" height="500px" />
 
 ---
 
